@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Poner un icono al nombre de la pagina web, el avioncito de color que aparece al lado del titulo, VIAJAR-->
+	<title>VIAJAR</title>
+	<link rel="icon" href="icono1.jpg">
+	<link rel="stylesheet" type="text/css" href="img/icono.png">
+
+	<meta name="" content=""> 
+	<!--meta es una etiqueta para especificar alguna cosa (palabras clave, como mostrar el contenido...)-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Ejemplo Configuración de la ventana para que su página web se ve bien en todos los dispositivos-->
+	<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+	<!--Ejemplo 1 - Definición de palabras clave para los motores de búsqueda-->
+
+</head>
+
+<body>
+
+<!--ESTRUCTURA DEL SITIO WEB-->
+<header>Cabecera</header>
+<nav>Barra de navegacion</nav>
+<section>Seccion principal</section>
+<aside>columna</aside>
+<article>Articulo</article>
+<h1>Titulo</h1>
+<h2>Titulo Segundo</h2>
+<p>Esto es un parrafo, <br>Y esto es otro parrafo </p>
+
+<a href="https://www.civitatis.com/es/" target="_blank"> Visita Civitatis</a>
+<!--"Vinculo para redirijirte a otra pagina"  target es el atributo para que se abra en otra pagina en blanco, en todo la pagina...etc , el nombre de dicho vinculo-->
+
+<hr>  <!--linea en la pagina-->
+
+<img src="playa.jpg"> 
+
+<ol> 				<!--lista organizada o numerica-->
+	<li>EUROPA</li>
+	<li>AMERICA</li>
+	<li>ASIA</li>
+	<li>AFRICA</li>
+</ol>
+
+<ul> 				<!--lista pero sin orden numerico-->
+	<li>EUROPA</li>
+	<li>AMERICA</li>
+	<li>ASIA</li>
+	<li>AFRICA</li>
+	
+</ul>
+
+<h1>PARIS</h1>
+<table border="1">    <!--tr es para hacer una tabla y th para las filas de la tabla-->
+	
+<thead>     <!--crear la cabecera de la tabla en negrita-->
+
+	<tr>
+		<th>HOTEL</th>
+		<th>PRECIO</th>
+		<th>P.PERS</th>
+	</tr>
+</thead>
+<tbody>		<!--crear el cuerpo de la tabla sin negrita-->
+	<tr>
+		<td>The Aviation</td>
+		<td>255</td>
+		<td>122,5</td>
+	</tr>
+</tbody>
+
+</table>
+
+<table border="1">   <!--en esta segunda tabla, al no añadir thead ni tbody, toda la tabla aparece en negrita-->
+	<tr>
+		<th>TRANSPORTE</th>
+		<th>PRECIO</th>
+		<th>P.PERS</th>
+	</tr>
+
+	<tr>
+		<th>AVION</th>
+		<th>150</th>
+		<th>75</th>
+	</tr>
+
+	<tr>
+		<th>METRO</th>
+		<th>70</th>
+		<th>35</th>
+	</tr>
+</table>
+
+<footer>:)</footer> <!--pie de pagina-->
+<hr>
+
+
+<!--parte 3 del cuerpo-->
+
+<figure>.    <!--simplemente para ordenar, aparentemente apenas hay cambios en la vista web-->
+	<img src="mont.jpg">
+</figure>
+<figcaption>Las tres hermanas</figcaption> <!--pie de pagina a la imagen-->
+
+<video autoplay="" controls="" loop="" width="500" height="250" > 
+</video>
+
+<br>
+
+<!--IFRAME SE UTILIZA PARA INSERTAR OTRO DOCUMENTO DENTRO DEL DOCUMENTO HTML-->
+
+<!--Insertar un video de youtube, tenemos que poner embed y luego el video, las dimensiones y el borde que tendra--> 
+<figure>
+<iframe src="https://www.youtube.com/embed/lNtJFv3345U" width="500" height="250" frameborder="10" fullscreen></iframe>
+</figure>
+<!--para insertar un mapa, en mapas seleccionas el sitio, enlace e insertar mapa, y copias el enlace iframe que te aparece en tu html-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.991625693764!2d2.292292615624413!3d48.858370079287496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTorre+Eiffel!5e0!3m2!1ses!2ses!4v1565880704512!5m2!1ses!2ses" width="1200" height="750" frameborder="0" style="border:0" allowfullscreen></iframe> 
+<br>
+<iframe src="https://www.booking.com" width="1250" height="250">
+</iframe>
+  
+
+<!--FALTA CREACION DE UN FORMULARIO...TUTORIAL 15 UDEMY-->
+
+
+</body>
+</html>

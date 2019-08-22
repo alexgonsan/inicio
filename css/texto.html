@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UBICACION DE PAGINA</title>
+
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	header{
+		position: relative; 
+		margin:20px auto;   	/*margen = puede ser automatico, y segun las 4 coordenadas, TOP(arriba), RIGHT(derecha), BOTTOM(abajo),LEFT(izquierda)
+		EJEMPLO:     margin:20px 30px 40px 50px;
+		Usando 2 valores, seria vertical y horizontal. Usando uno, el mismo valor a cada lado */ 
+		width: 1000px;
+		height: 120px;
+		background: #444;
+	}
+
+	#logo{
+		position: absolute; 
+		top:30px;
+		left:30px;
+		width: 200px;
+		height: 60px;
+		background-color: #ccc;
+
+		}
+	.redes{
+			position: absolute;
+			width: 42px;
+			height: 42px;
+			background-color: #ccc;
+			border-radius: 100%;
+			}
+
+	#icono1{
+			top: 42px;
+			right: 120px;	
+			}
+	#icono2{
+			top: 42px;
+			right: 71px;
+			}
+	#icono3{
+			top: 42px;
+			right: 19px;
+			}
+
+	nav{
+		position: relative; 
+		margin: auto;
+		width: 1000px;
+		height: 48px;
+		}
+
+	.botones{
+		float:left;  /*hace flotar ese listado vertical a horizontal*/
+		width: 196px;
+		margin: 0px 2px;
+		height: 48px;
+		background: #333;	
+		}
+
+	#top{
+		position: relative; 
+		margin: 20px auto;
+		width: 1000px;
+		height: 192px;
+		}
+	#top ul{
+		width: 1010px;
+		height: 192px;
+	}
+
+	#top ul li{
+		float: left;
+		width: 326px;
+		height: 192px;
+		background: black;
+		margin-right: 10px;
+	}
+ 
+
+
+
+	section{
+		position: relative; 
+		margin: auto;
+		width: 1000px;
+		height: 453px;
+		background: #aaa;
+		}
+
+	aside#izq{
+		position: absolute;
+		left:0;
+		top:0;
+		width: 200px;
+		height: 453px;
+		background: #333;
+		}
+
+	article{
+		position: absolute;
+		left:200px;
+		top:0;
+		width:600px;
+		height:453px;
+		background: blue;
+	}
+
+	aside#der{
+		position: absolute;
+		right:0;
+		top:0;
+		width: 200px;
+		height: 453px;
+		background: #333;
+		}
+
+
+	footer{
+		position: relative; 
+		margin: 20px auto;
+		width: 1000px;
+		height: 70px;
+		background: #aaa; 
+		}
+
+</style>
+
+</head>
+
+
+<body> 
+
+<!--inicio de cabecera-->
+	<header>
+		<div id="logo">LOGOTIPO</div>
+
+		<div id="icono1" class="redes">X</div>
+		<div id="icono2" class="redes">X</div>
+		<div id="icono3" class="redes">X</div>
+	</header>
+<!--cierre de cabecera-->
+
+<!--inicia barra de navegacion-->
+
+<nav>
+	<ul>
+		<li class="botones">BOTON 1</li>
+		<li class="botones">BOTON 2</li>
+		<li class="botones">BOTON 3</li>
+		<li class="botones">BOTON 4</li>
+		<li class="botones">BOTON 5</li>
+
+	</ul>
+</nav>
+<!--cierre barra de navegacion-->
+
+<!--inicia parte superior-->
+	<div id="top">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+<!--cierra parte superior-->
+	
+<!--incia seccion-->
+	<section>
+		<aside id="izq"></aside>
+		<article></article>
+		<aside id="der"></aside>
+	</section>
+<!--cierra seccion-->
+
+<!--Inicia Pie de pagina-->
+	<footer></footer>
+<!--cierra pie de pagina-->
+
+</body>
+</html>
